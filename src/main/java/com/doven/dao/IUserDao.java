@@ -13,4 +13,7 @@ import java.util.List;
 public interface IUserDao {
     @Select("SELECT * FROM user")
     List<User> findAll();
+
+    @Select("SELECT * FROM user WHERE id = 1")
+    User findOne();
 }
