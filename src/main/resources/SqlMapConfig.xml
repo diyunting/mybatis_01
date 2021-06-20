@@ -16,7 +16,6 @@
             </dataSource>
         </environment>
     </environments>
-
     <!--告知mybatis映射配置文件的位置-->
     <mappers>
         <mapper class="com.doven.dao.IUserDao"></mapper>
