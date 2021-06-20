@@ -16,3 +16,4 @@ public interface IUserDao {
     @Select("SELECT * FROM user WHERE id = 1")
     User findOne();
 }
+
